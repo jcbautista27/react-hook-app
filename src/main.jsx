@@ -14,8 +14,10 @@ import {Padre} from "./07-tarea-memo/Padre"
 //import { Layout } from "./05-useLayoutEffect/Layout.jsx";
 //import { Memorize } from "./06-memos/Memorize.jsx";
 
+import './08-useReducer/intro-reducer'
+
 createRoot(document.getElementById("root")).render(
   /*<StrictMode>*/
-  <Padre/>
+  /*<Padre/>¨*/
   /*</StrictMode>,*/
 );
