@@ -1,9 +1,9 @@
 const initialState = [
-  {
+/*   {
     id: 1,
     todo: "recolectar la piedra del alma",
     dome: false,
-  },
+  }, */
 ];
 
 const todoReducer = (state = initialState, action= {}) => {
@@ -16,9 +16,9 @@ const todoReducer = (state = initialState, action= {}) => {
 let todos = todoReducer()
 
 const newTodo = {
-    id: 2,
+    /* id: 2,
     todo: 'recolectar la piedra del poder',
-    done: false
+    done: false */
 }
 
 
